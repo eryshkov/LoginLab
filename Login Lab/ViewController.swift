@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         userName = userName.trimmingCharacters(in: .whitespacesAndNewlines)
         
         guard !userName.isEmpty else {
-            var ac = UIAlertController(title: "Warning", message: "Enter User Name please", preferredStyle: .alert)
+            let ac = UIAlertController(title: "Warning", message: "Enter User Name please", preferredStyle: .alert)
             let action = UIAlertAction(title: "OK", style: .default, handler: nil)
             ac.addAction(action)
             present(ac, animated: true)
