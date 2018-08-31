@@ -12,6 +12,7 @@
 		5CAFE7542139AFC300CDC6A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CAFE7522139AFC300CDC6A0 /* Main.storyboard */; };
 		5CAFE7562139AFC800CDC6A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CAFE7552139AFC800CDC6A0 /* Assets.xcassets */; };
 		5CAFE7592139AFC800CDC6A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CAFE7572139AFC800CDC6A0 /* LaunchScreen.storyboard */; };
+		5CAFE7612139B08300CDC6A0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5CAFE7602139B08300CDC6A0 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5CAFE7552139AFC800CDC6A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CAFE7582139AFC800CDC6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CAFE75A2139AFC800CDC6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CAFE7602139B08300CDC6A0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		5CAFE7422139AFC300CDC6A0 = {
 			isa = PBXGroup;
 			children = (
+				5CAFE7602139B08300CDC6A0 /* .gitignore */,
 				5CAFE74D2139AFC300CDC6A0 /* Login Lab */,
 				5CAFE74C2139AFC300CDC6A0 /* Products */,
 			);
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CAFE7612139B08300CDC6A0 /* .gitignore in Resources */,
 				5CAFE7592139AFC800CDC6A0 /* LaunchScreen.storyboard in Resources */,
 				5CAFE7562139AFC800CDC6A0 /* Assets.xcassets in Resources */,
 				5CAFE7542139AFC300CDC6A0 /* Main.storyboard in Resources */,
@@ -280,15 +284,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2EB4KC7497;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L2PMLV77L3;
 				INFOPLIST_FILE = "Login Lab/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.eugem.Login-Lab";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.starapplic7.first1.Login-Lab";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fec117fc-2f2e-4cf2-adc5-1f59288062cd";
+				PROVISIONING_PROFILE_SPECIFIER = 8b1759d59c557b10982ce1246caf2d5a38c6a6c1;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,15 +304,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2EB4KC7497;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L2PMLV77L3;
 				INFOPLIST_FILE = "Login Lab/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.eugem.Login-Lab";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.starapplic7.first1.Login-Lab";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fec117fc-2f2e-4cf2-adc5-1f59288062cd";
+				PROVISIONING_PROFILE_SPECIFIER = 8b1759d59c557b10982ce1246caf2d5a38c6a6c1;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
