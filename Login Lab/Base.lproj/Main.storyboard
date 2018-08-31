@@ -82,7 +82,9 @@
                     <connections>
                         <outlet property="passTextField" destination="od5-b7-LRV" id="Qp8-mv-kvp"/>
                         <outlet property="userNameTextField" destination="FUV-E2-6s3" id="eVz-Xf-7Z4"/>
-                        <segue destination="bLm-hj-Xqr" kind="show" identifier="SecondVC" id="hmU-7O-MxO"/>
+                        <segue destination="bLm-hj-Xqr" kind="show" identifier="LogIn" id="hmU-7O-MxO"/>
+                        <segue destination="bLm-hj-Xqr" kind="show" identifier="ForgotUN" id="Fye-bS-Krp"/>
+                        <segue destination="bLm-hj-Xqr" kind="show" identifier="FogotPW" id="5fS-Bo-YQl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -118,7 +120,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Fh-N8-hW8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1852" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1914" y="134"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fzS-1v-85B">
@@ -139,4 +141,7 @@
             <point key="canvasLocation" x="306" y="134"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="5fS-Bo-YQl"/>
+    </inferredMetricsTieBreakers>
 </document>
