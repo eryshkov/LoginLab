@@ -13,6 +13,7 @@
 		5CAFE7562139AFC800CDC6A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CAFE7552139AFC800CDC6A0 /* Assets.xcassets */; };
 		5CAFE7592139AFC800CDC6A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CAFE7572139AFC800CDC6A0 /* LaunchScreen.storyboard */; };
 		5CAFE7612139B08300CDC6A0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5CAFE7602139B08300CDC6A0 /* .gitignore */; };
+		5CAFE7632139B47E00CDC6A0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAFE7622139B47D00CDC6A0 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5CAFE7582139AFC800CDC6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CAFE75A2139AFC800CDC6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CAFE7602139B08300CDC6A0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5CAFE7622139B47D00CDC6A0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				5CAFE74E2139AFC300CDC6A0 /* AppDelegate.swift */,
 				5CAFE7502139AFC300CDC6A0 /* ViewController.swift */,
+				5CAFE7622139B47D00CDC6A0 /* SecondViewController.swift */,
 				5CAFE7522139AFC300CDC6A0 /* Main.storyboard */,
 				5CAFE7552139AFC800CDC6A0 /* Assets.xcassets */,
 				5CAFE7572139AFC800CDC6A0 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CAFE7632139B47E00CDC6A0 /* SecondViewController.swift in Sources */,
 				5CAFE7512139AFC300CDC6A0 /* ViewController.swift in Sources */,
 				5CAFE74F2139AFC300CDC6A0 /* AppDelegate.swift in Sources */,
 			);
