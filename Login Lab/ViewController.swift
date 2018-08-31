@@ -39,6 +39,10 @@ class ViewController: UIViewController {
         userName = userName.trimmingCharacters(in: .whitespacesAndNewlines)
         
         guard !userName.isEmpty else {
+            var ac = UIAlertController(title: "Warning", message: "Enter User Name please", preferredStyle: .alert)
+            let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+            ac.addAction(action)
+            present(ac, animated: true)
             return
         }
         
@@ -46,7 +50,7 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let dvc = segue.destination as? SecondViewController else { return }
+        guard let dvc = segue.destination as? SecondViewController else {return}
         
         guard let segueID = segue.identifier else { return }
         
