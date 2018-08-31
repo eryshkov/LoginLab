@@ -57,7 +57,7 @@ class ViewController: UIViewController {
         switch segueID {
         case "LogIn":
             if let userName = sender as? String {
-                dvc.textToDisplay = "Hi \(userName)."
+                dvc.textToDisplay = "Hi, \(userName)."
             }
         case "FogotPW":
             dvc.textToDisplay = "Forgot password."
