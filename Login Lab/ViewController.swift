@@ -15,7 +15,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        userNameTextField.delegate = self
     }
     
     override func didReceiveMemoryWarning() {
@@ -47,15 +48,17 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let dvc = segue.destination as? SecondViewController else { return }
         
-        switch segue.identifier! {
+        guard let segueID = segue.identifier else { return }
+        
+        switch segueID {
         case "LogIn":
             if let userName = sender as? String {
-                dvc.label.text = "Hi \(userName)."
+                dvc.textToDisplay = "Hi \(userName)."
             }
         case "FogotPW":
-            dvc.label.text = "Forgot password."
+            dvc.textToDisplay = "Forgot password."
         case "ForgotUN":
-            dvc.label.text = "Forgot User Name."
+            dvc.textToDisplay = "Forgot User Name."
         default:
             break
         }
@@ -63,7 +66,18 @@ class ViewController: UIViewController {
     }
 }
 
-
+// MARK: - Delegate Extentions
+extension ViewController: UITextFieldDelegate{
+    // Hides keyboard on RETURN Button
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        userNameTextField.resignFirstResponder()
+        return true
+    }
+    // Hides keyboard on Touch Outside Tap
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true);
+    }
+}
 
 
 
